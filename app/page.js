@@ -90,7 +90,7 @@ function Page() {
                                 <h2 className="font-medium text-gray-800 dark:text-white ">{item.voucher}</h2>
                             </td>
                             <td className="px-4 py-4 text-sm font-medium whitespace-nowrap">
-                                <h2 className="font-medium text-gray-800 dark:text-white ">{item.status === '1' ? 'Attende' : 'Confirm' }</h2>
+                                <h2 className="font-medium text-gray-800 dark:text-white "> {item.status === 0 ? 'Confirm' : 'Attend'}</h2>
                             </td>
                         </tr>
                     ))}
